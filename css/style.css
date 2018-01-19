@@ -1,6 +1,6 @@
 body {
-  width: 960px;
-  margin: 5px auto;
+  width: 900px;
+  margin: 20px auto;
 }
 
 #site-title {
@@ -8,7 +8,11 @@ body {
   margin-top: 10px;
 }
 
-header div h1 {
+header {
+  height: 100px;
+}
+
+h1 {
   margin-top: 10px;
   font-size: 30px;
   font-family: cursive;
@@ -17,10 +21,26 @@ header div h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  margin: 35px 0 10px 0;
+}
+
 header h3 {
   padding-left: 10px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 12px;
+}
+
+h5 {
+ 
+  font-size: 16px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #999;
 }
 
 header img {
@@ -29,10 +49,38 @@ header img {
 }
 
 #social-header {
-  float: right; */
+  float: right;
   text-align: right;
 }
 
-hr {
-  height: 5px;
+img:nth-child(7) {
+  padding-left: 10px;
+}
+
+#print {
+  float: right;
+  clear: left;
+}
+
+#print * {
+  display: inline;
+}
+
+article>img {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.divider {
+  height: 15px;
+  width: 100%;
+}
+
+article p {
+  margin: 20px 0;
+  text-indent: 25px;
+  font-size: 19px;
+  color: #777;
+  font-weight: 500;
+  line-height: 1.3;
 }
